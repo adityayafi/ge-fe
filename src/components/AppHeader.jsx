@@ -9,12 +9,12 @@ const AppHeader = () => {
         <button 
         className="text-blue-400 border-2 py-2 px-4 border-blue-400 font-bold hover:text-blue-300 hover:border-blue-300"
         >
-          <Link href="/pages/login">MASUK</Link>
+          <Link href="/login">MASUK</Link>
         </button>
         <button 
         className="text-white bg-blue-400 border-2 py-2 px-4 border-blue-400 font-bold hover:bg-blue-300 hover:border-blue-300"
         >
-          DAFTAR
+          <Link href="/register">DAFTAR</Link>
         </button>
       </div>
     </div>

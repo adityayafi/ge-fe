@@ -21,7 +21,7 @@ export default function Login () {
               <InputBox label={'Password'} placeholder={'Masukkan Password'} type='password'/>
               <button className="w-full bg-blue-400 h-14 mt-6 text-white font-bold text-lg hover:bg-blue-300">MASUK</button>
               <div className="justify-center flex w-full mt-5">
-                <Link href="/pages/register" className="text-blue-400 hover:text-blue-700 hover:underline">Belum punya akun? Register disini.</Link>
+                <Link href="/register" className="text-blue-400 hover:text-blue-700 hover:underline">Belum punya akun? Register disini.</Link>
               </div>
             </div>
           </div>

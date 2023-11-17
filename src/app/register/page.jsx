@@ -22,7 +22,7 @@ const Register = () => {
               <InputBox label={'No. Handphone'} placeholder={'Masukkan No Handphone anda'} type='number'/>
               <button className="w-full bg-blue-400 h-14 mt-6 text-white font-bold text-lg hover:bg-blue-300">DAFTAR</button>
               <div className="justify-center flex w-full mt-5">
-                <Link href="/pages/login" className="text-blue-400 hover:text-blue-700 hover:underline">Sudah punya akun? Login disini.</Link>
+                <Link href="/login" className="text-blue-400 hover:text-blue-700 hover:underline">Sudah punya akun? Login disini.</Link>
               </div>
             </div>
           </div>
